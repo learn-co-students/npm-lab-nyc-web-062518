@@ -1,0 +1,26 @@
+{
+  "name": "chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredianmills/npm-lab-nyc-web-062518.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaredianmills/npm-lab-nyc-web-062518/issues"
+  },
+  "homepage": "https://github.com/jaredianmills/npm-lab-nyc-web-062518#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.17",
+    "moment": "^2.22.2"
+  }
+}
